@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  background-color: #dcdcdc;
+}
+header{
+  height:50px;
+  width:100%;
+  position:fixed;
+  z-index:10;
+  opacity:0.8;
+  background-color:white;
+
+}
+
+.container{
+  width:95%;
+  margin:0 auto;
+}
+.header-left{
+  float:left;
+  width:40%;
+  height:50px;
+}
+.header-logo{
+  height:50px;
+}
+.btn:hover{
+  opacity: 0.5;
+  cursor:pointer;
+  background-color: #c0c0c0;
+}
+.header-right{
+  float:right;
+  height:50px;
+  width:40%;
+}
+.header-list{
+  height:50px;
+  margin:auto 10px;
+}
+.header-right a{
+  color:black;
+  list-style:none;
+  float:right;
+  line-height:50px;
+  padding:0 10px 0 10px
+}
+
+.top-wrapper{
+  background-image:url(IMG_2162.JPG);
+  background-size: cover;
+  background-position: center;
+  border:solid;
+  height:600px;
+  text-align:center;
+  color:white;
+}
+
+.top-wrapper .container{
+
+}
+
+.top-wrapper .container h1{
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-top:200px;
+}
+
+.top-wrapper h2{
+  opacity: 0.7;
+  letter-spacing: 5px;
+}
+
+.btn2{
+  background-color:#a9a9a9;
+  opacity:0.8;
+  color:white;
+  padding:10px;
+  border-radius: 5px;
+}
+.btn2:hover{
+  opacity:1.0;
+}
+
+.email{
+  margin-right:20px;
+}
+
+.space{
+  padding:20px 0;
+  opacity:0.7;
+}
+
+.img-side img{
+  height:50px;
+  width:50px;
+}
+
+.middle-wrapper{
+  text-align:center;
+}
+
+.middle-wrapper .container{
+
+}
+.middle-wrapper .container h3{
+  padding-bottom:10px;
+  border-bottom:solid 2px black;
+}
+
+.middle-wrapper .container .introduction{
+  width:50%;
+  margin:0 auto;
+  text-align: center;
+
+}
+
+.underline{
+  background: linear-gradient(transparent 50%, #a8eaff 50%);
+}
+
+
+footer{
+  height:50px;
+  border-top:solid 1px #696969
+}
+
+.footer-logo{
+  float:left;
+  height:50px;
+}
+.footer-catch{
+  float:right;
+  margin:0;
+  font-size: 10px;
+  line-height: 50px;
+}
